@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "C/C++: build and debug with input.txt",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": ["<", "${workspaceFolder}/input.txt"],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang arquivo de build ativo"
+    },
+    {
+      "name": "C/C++: build and debug external",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang arquivo de build ativo"
+    }
+  ],
+  "version": "2.0.0"
+}
